@@ -1,7 +1,7 @@
 import yaml
 
 # Load YAML file
-with open("user_config.yaml", "r") as file:
+with open("yaml/user_config.yaml", "r") as file:
     data = yaml.safe_load(file)
 
 # Display data
