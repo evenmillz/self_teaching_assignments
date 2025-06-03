@@ -49,3 +49,56 @@ This repo serves as a launchpad for transitioning into real-world backend API wo
 ---
 
 ✍🏽 Designed and implemented with intention by Even Richardson.
+
+---
+
+## 🛠️ How to Use This Repository
+
+Each folder in this repository is a standalone exercise and can be run independently. To get started with any assignment:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/evenmillz/self_teaching_assignments.git
+   cd self_teaching_assignments
+   ```
+
+2. **Navigate to a challenge directory**  
+   For example, to explore the YAML assignment:
+
+   ```bash
+   cd yaml_challenge
+   ```
+
+3. **Run the scripts**  
+   Most challenges are self-contained Python scripts. For example:
+
+   ```bash
+   python read_yaml.py
+   ```
+
+4. **View Swagger UI (if using Connexion)**  
+   For the `connexion_api_challenge`, run the app:
+
+   ```bash
+   cd connexion_api_challenge
+   python app.py
+   ```
+
+   Then open your browser to [http://localhost:5000/ui](http://localhost:5000/ui) to explore the API docs.
+
+5. **Try the cURL commands**  
+   In the `cURL_challenge` folder, use the terminal to run:
+
+   ```bash
+   curl https://example.com > output.html
+   ```
+
+6. **Postman Challenge**  
+   The Postman portion uses the [JSONPlaceholder API](https://jsonplaceholder.typicode.com). Import endpoints into Postman and test GET, POST, PUT, and DELETE methods.
+
+> No external setup is required beyond Python 3 and `pip install -r requirements.txt` (if included).
+
+---
+
+Feel free to explore each folder and experiment. This repo is meant to be broken, rebuilt, and learned from.
