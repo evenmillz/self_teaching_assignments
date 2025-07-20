@@ -48,11 +48,11 @@ This repo serves as a launchpad for transitioning into real-world backend API wo
 
 ---
 
-✍🏽 Designed and implemented with intention by Even Richardson.
+Designed and implemented with intention by Even Richardson.
 
 ---
 
-## 🛠️ How to Use This Repository
+## How to Use This Repository
 
 Each folder in this repository is a standalone exercise and can be run independently. To get started with any assignment:
 
